@@ -1,1 +1,16 @@
 /* Enter your Styles below! */
+
+a{ text-decoration: none; }
+
+/*.active {text decoration: underline;}*/
+
+
+nav ul{
+	list-style-type: none;
+
+}
+
+nav li{ display: inline-block; 
+	margin-left: 40px;
+}
+
