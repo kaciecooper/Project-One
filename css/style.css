@@ -1,9 +1,13 @@
 /* Enter your Styles below! */
 
- body {
+ .homepage body {
   background-image: url(../images/whalehome-01.png);
   background-repeat: no-repeat;
   background-size:cover;
+}
+
+.orca_page body{
+	background-color:coral;
 }
 
 a{ text-decoration: none; }
