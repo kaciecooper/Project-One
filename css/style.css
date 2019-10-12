@@ -96,12 +96,21 @@ h1.gray_header {
 
 
 h1.orca_header {
+	padding:30px;
 	width:50px;
 	height:50px;
 	font-family: 'Barlow', sans-serif;
-	color:#000;
-	font-size:43px;
+	color:#fff;
+	font-size:70px;
+	font-weight:900;
 }
+
+
+section{
+	  display: grid;
+      grid-template-columns: 30% 70%;
+}
+
 
 article.home_article{ 
 	display:block;
@@ -160,10 +169,21 @@ article.orca_article{
 	margin-top: 170px;
 	margin-right: 90px;
 	width:200px;
-	height:20px;
+	height:200px;
 	font-family: 'Montserrat', sans-serif;
-	color:#000;
+	color:#fff;
 	font-size:16px;
+	background-color:#1a2f5a;
+}
+
+
+img.orca_img_1{
+  display: block;
+  margin-top:10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+
 }
 
 
@@ -176,6 +196,9 @@ footer{
   font-family: 'Montserrat', sans-serif;
   font-size:12px;
 }
+
+
+
 
 
 /*.active {text decoration: underline;}*/
