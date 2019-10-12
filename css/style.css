@@ -1,27 +1,41 @@
-/* Enter your Styles below! */
+body.home{
+  background-color:#fff;}
 
- .homepage body {
-  background-image: url(../images/whalehome-01.png);
-  background-repeat: no-repeat;
-  background-size:cover;
+body.blue{
+	background-color:blue;
 }
 
-.orca_page body{
-	background-color:coral;
+body.humpback{
+	background-color:lightblue;
+}  
+
+body.gray{
+	background-color:green;
 }
 
-a{ text-decoration: none; }
+body.orca{
+	background-color:#e8858c;
+}
 
-/*.active {text decoration: underline;}*/
+a:hover{
+ border:1px solid black;  
+}
+a:hover.homepagelink{
+  	border:none;
+}
 
-/*nav{
-	display:grid;
-	grid-template-columns: 50%, 50%;
-}*/
+a:active {
+	color:#000;
+}
+
+
+a{ text-decoration: none;
+   color:#000 }
 
 nav{ padding: 20px;
 	font-family: 'Barlow', sans-serif;
   	font-size: 16px;}
+
 
 nav ul{
 	list-style-type: none;
@@ -29,34 +43,144 @@ nav ul{
 }
 
 nav li{ display: inline-block; 
-		margin-left: 60px;
+		margin-left: 20px;
   		float: right;  		
 }
+
+.homepagelink{
+  	display:block;
+  	text-align:center}
+}
+
 
 a{
 	color:#000;
 }
 
-h1 {
+h1.home_header {
+	padding-top:20px;
+	padding-left:30px;
 	width:50px;
 	height:50px;
 	font-family: 'Barlow', sans-serif;
 	color:#e83832;
+	font-size:60px;
+}
+
+
+h1.blue_header {
+	width:50px;
+	height:50px;
+	font-family: 'Barlow', sans-serif;
+	color:#000;
 	font-size:43px;
 }
 
 
-article{ 
+h1.humpback_header {
+	width:50px;
+	height:50px;
+	font-family: 'Barlow', sans-serif;
+	color:#000;
+	font-size:43px;
+}
+
+
+h1.gray_header {
+	width:50px;
+	height:50px;
+	font-family: 'Barlow', sans-serif;
+	color:#000;
+	font-size:43px;
+}
+
+
+h1.orca_header {
+	width:50px;
+	height:50px;
+	font-family: 'Barlow', sans-serif;
+	color:#000;
+	font-size:43px;
+}
+
+article.home_article{ 
+	display:block;
 	padding:40px;
+	margin-top: 170px;
+	margin-right: 90px;
 	width:200px;
 	height:20px;
 	font-family: 'Montserrat', sans-serif;
-	color:#fff;
+	color:#000;
+	font-size:16px;
+}
+
+article.blue_article{ 
+	display:block;
+	padding:40px;
+	margin-top: 170px;
+	margin-right: 90px;
+	width:200px;
+	height:20px;
+	font-family: 'Montserrat', sans-serif;
+	color:#000;
 	font-size:16px;
 }
 
 
 
+article.humpback_article{ 
+	display:block;
+	padding:40px;
+	margin-top: 170px;
+	margin-right: 90px;
+	width:200px;
+	height:20px;
+	font-family: 'Montserrat', sans-serif;
+	color:#000;
+	font-size:16px;
+}
+
+article.gray_article{ 
+	display:block;
+	padding:40px;
+	margin-top: 170px;
+	margin-right: 90px;
+	width:200px;
+	height:20px;
+	font-family: 'Montserrat', sans-serif;
+	color:#000;
+	font-size:16px;
+}
 
 
-/*font-family: 'Montserrat', sans-serif;*/
+article.orca_article{ 
+	display:block;
+	padding:40px;
+	margin-top: 170px;
+	margin-right: 90px;
+	width:200px;
+	height:20px;
+	font-family: 'Montserrat', sans-serif;
+	color:#000;
+	font-size:16px;
+}
+
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size:12px;
+}
+
+
+/*.active {text decoration: underline;}*/
+
+/*nav{
+	display:grid;
+	grid-template-columns: 50%, 50%;
+}*/
