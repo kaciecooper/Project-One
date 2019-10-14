@@ -17,10 +17,32 @@ body.orca{
 	background-color:#e8858c;
 }
 
+
 a:hover{
  border:1px solid black;  
 }
-a:hover.homepagelink{
+
+
+a:hover.Bluepage{
+ border:2px solid #a6d1ca;  
+}
+
+
+a:hover.Humpbackpage{
+ border:2px solid #225caa;  
+}
+
+
+a:hover.Graypage{
+ border:2px solid #e5d8b5;  
+}
+
+
+a:hover.Orcapage{
+ border:2px solid #e8858c;  
+}
+
+a:hover.homepage_link{
   	border:none;
 }
 
@@ -51,7 +73,7 @@ nav li{ display: inline-block;
 .homepagelink{
   	text-align:center;
   	display:inline-block;
-
+  	margin-left: 20px;
   }
 
 
@@ -224,6 +246,11 @@ article.orca_article{
 	background-color:#225caa;
 }
 
+
+img.homepage_img_1{
+	margin-top:-180px;
+	z-index:-100;
+}
 
 img.orca_img_1{
   display: block;
