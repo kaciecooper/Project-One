@@ -129,11 +129,11 @@ h1.gray_header {
 h1.orca_header {
 	width:100%;
 	padding-top:20px;
+	margin-left:20px;
 	font-family: 'Barlow', sans-serif;
-	color:#f0e9ad;
+	color:#225caa;
 	font-size:100px;
 	font-weight:900;
-	text-align: center;
 	
 }
 
@@ -235,15 +235,16 @@ article.gray_article{
 
 article.orca_article{ 
 	display:block;
-	padding:40px;
-	margin-top: 170px;
+	padding:30px;
+	margin-top: 20px;
 	margin-right: 90px;
-	width:200px;
-	height:200px;
+	width:300px;
+	height:300px;
 	font-family: 'Montserrat', sans-serif;
 	color:#fff;
-	font-size:16px;
+	font-size:14px;
 	background-color:#225caa;
+	line-height:1.5em;
 }
 
 
@@ -254,12 +255,14 @@ img.homepage_img_1{
 
 img.orca_img_1{
   display: block;
-  margin-top:10px;
+  margin-top:-250px;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+  z-index: -100;
 
 }
+
 
 
 footer{
