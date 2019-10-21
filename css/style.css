@@ -50,9 +50,25 @@ a:active {
 	color:#000;
 }
 
+a:visted{
+	text-decoration:none;
+	color:#000;
+}
 
-a{ text-decoration: none;
-   color:#000 }
+a.home{ text-decoration: none;
+   color:red; }
+
+a.orca{ text-decoration: none;
+   color:red; }
+
+a.gray{ text-decoration: none;
+   color:red; }
+
+a.humpback{ text-decoration: none;
+   color:red; }
+
+a.blue{ text-decoration: none;
+   color:red; } 
 
 nav{ padding: 20px;
 	font-family: 'Barlow', sans-serif;
@@ -70,17 +86,13 @@ nav li{ display: inline-block;
   		float: right;  		
 }
 
+
 .homepagelink{
   	text-align:center;
   	display:inline-block;
   	margin-left: 30px;
   	padding:10px;
   }
-
-
-a{
-	color:#000;
-}
 
 h1.home_header {
 	width:300px;
