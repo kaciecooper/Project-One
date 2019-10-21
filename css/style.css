@@ -95,12 +95,12 @@ h1.home_header {
 
 
 h1.blue_header {
-	padding:30px;
-	width:50px;
-	height:50px;
+	width:100%;
+	padding-top:20px;
+	margin-left:850px;
 	font-family: 'Barlow', sans-serif;
-	color:#fff;
-	font-size:70px;
+	color:#0089cf;
+	font-size:100px;
 	font-weight:900;
 }
 
