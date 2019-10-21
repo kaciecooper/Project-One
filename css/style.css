@@ -17,6 +17,8 @@ body.orca{
 	background-color:#e8858c;
 }
 
+a{
+	text-decoration: none;}
 
 a:hover{
  border:1px solid black;  
@@ -50,8 +52,8 @@ a:active {
 	color:#000;
 }
 
-a:visted{
-	text-decoration:none;
+a:visited{
+	text-decoration: none;
 	color:#000;
 }
 
@@ -59,16 +61,16 @@ a.home{ text-decoration: none;
    color:red; }
 
 a.orca{ text-decoration: none;
-   color:red; }
+   color:#2ba4d6; }
 
 a.gray{ text-decoration: none;
-   color:red; }
+   color:#e99b75; }
 
 a.humpback{ text-decoration: none;
-   color:red; }
+   color:#e88994; }
 
 a.blue{ text-decoration: none;
-   color:red; } 
+   color:#fff; } 
 
 nav{ padding: 20px;
 	font-family: 'Barlow', sans-serif;
