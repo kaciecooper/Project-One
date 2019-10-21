@@ -57,20 +57,26 @@ a:visited{
 	color:#000;
 }
 
-a.home{ text-decoration: none;
-   color:red; }
+ul.home_ul a {
+color:#e83832;
+}
 
-a.orca{ text-decoration: none;
-   color:#2ba4d6; }
+ul.orca_ul a {
+color:#2ba4d6;
+}
 
-a.gray{ text-decoration: none;
-   color:#e99b75; }
+ul.gray_ul a {
+color:#e99b75;
+}
 
-a.humpback{ text-decoration: none;
-   color:#e88994; }
+ul.humpback_ul a {
+color:#e88994;
+}
 
-a.blue{ text-decoration: none;
-   color:#fff; } 
+ul.blue_ul a {
+color:#fff;
+}
+
 
 nav{ padding: 20px;
 	font-family: 'Barlow', sans-serif;
