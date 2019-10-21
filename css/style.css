@@ -169,7 +169,7 @@ section.humpback_section{
 
 section.blue_section{
 	  display: grid;
-      grid-template-columns: 40% 60%;
+      grid-template-columns: 75% 15%;
       
 }
 
@@ -187,20 +187,22 @@ article.home_article{
 	line-height:2em;	
 }
 
+
+
 article.blue_article{ 
 	display:block;
-	padding:40px;
-	margin-top: 170px;
-	margin-right: 90px;
-	width:200px;
-	height:200px;
+	padding:50px;
+	margin-top: 20px;
+	margin-right: -200px;
+	width:250px;
+	height:250px;
 	font-family: 'Montserrat', sans-serif;
-	color:#;
-	font-size:16px;
-	line-height:1.5em;
-	font-weight:200;
+	color:#000;
+	font-size:14px;
 	background-color:#0089cf;
+	line-height:1.5em;
 }
+
 
 
 
@@ -285,6 +287,17 @@ img.humpback_img_1{
   z-index: -100;
 
 }
+
+img.blue_img_1{
+  display: block;
+  margin-top:-250px;
+  margin-left:auto;
+  margin-right:200px;
+  width: 80%;
+  z-index: -100;
+
+}
+
 
 footer{
   position: fixed;
