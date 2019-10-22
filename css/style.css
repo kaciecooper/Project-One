@@ -111,35 +111,38 @@ h1.home_header {
 	color:#e83832;
 	font-size:70px;
 	font-weight:900;
+
 }
 
 
 h1.blue_header {
-	width:100%;
+	width:500px;
 	padding-top:20px;
 	margin-left:850px;
 	font-family: 'Barlow', sans-serif;
 	color:#0089cf;
 	font-size:100px;
 	font-weight:900;
+	
 }
 
 
 h1.humpback_header {
-	width:100%;
+	width:500px;
 	padding-top:20px;
 	margin-left:20px;
 	font-family: 'Barlow', sans-serif;
 	color:#96c6e2;
 	font-size:100px;
 	font-weight:900;
+
 }
 
 
 h1.gray_header {
-	width:100%;
+	width:500px;
 	padding-top:20px;
-	margin-left:850px;
+	margin-left:1000px;
 	font-family: 'Barlow', sans-serif;
 	color:#3e3694;
 	font-size:100px;
@@ -149,48 +152,48 @@ h1.gray_header {
 
 
 h1.orca_header {
-	width:100%;
+	width:500px;
 	padding-top:20px;
 	margin-left:20px;
 	font-family: 'Barlow', sans-serif;
 	color:#225caa;
 	font-size:100px;
-	font-weight:900;
-	
+	font-weight:900;	
 }
 
 
 section.home_section{
 	  display: grid;
       grid-template-columns: 20% 80%;
+      position:absolute;
 }
 
 
 section.orca_section{
 	  display: grid;
       grid-template-columns: 20% 80%;
-      
+      position:absolute;
 }
 
 
 section.gray_section{
 	  display: grid;
       grid-template-columns: 75% 15%;
-      
+      position:absolute;
 }
 
 
 section.humpback_section{
 	  display: grid;
       grid-template-columns: 20% 80%;
-      
+      position:absolute;
 }
 
 
 section.blue_section{
 	  display: grid;
       grid-template-columns: 75% 15%;
-      
+      position:absolute;
 }
 
 article.home_article{ 
@@ -243,7 +246,6 @@ article.humpback_article{
 
 
 article.gray_article{ 
-	display:block;
 	padding:50px;
 	margin-top: 20px;
 	margin-right: -200px;
@@ -258,12 +260,10 @@ article.gray_article{
 
 
 article.orca_article{ 
-	display:block;
 	padding:30px;
 	margin-top: 20px;
-	margin-right: 90px;
 	width:300px;
-	height:300px;
+	height:270px;
 	font-family: 'Montserrat', sans-serif;
 	color:#fff;
 	font-size:14px;
@@ -278,44 +278,33 @@ img.homepage_img_1{
 }
 
 img.orca_img_1{
-  display: block;
+  width:900px; 
+  height:900px;
   margin-top:-250px;
-  margin-left: auto;
-  margin-right: auto;
-  width:auto;
+  margin-left:100px;
   z-index: -100;
 
 }
 
 img.gray_img_1{
-  display: block;
   margin-top:-250px;
-  margin-left:auto;
-  margin-right:200px;
-  width: 80%;
+  margin-right:500px;
   z-index: -100;
-
+  width:90%;
 }
 
 
 img.humpback_img_1{
-  display: block;
   margin-top:-250px;
-  margin-left: auto;
-  margin-right: auto;
   width: 80%;
   z-index: -100;
-
 }
 
 img.blue_img_1{
-  display: block;
   margin-top:-250px;
-  margin-left:auto;
   margin-right:200px;
   width: 80%;
   z-index: -100;
-
 }
 
 
