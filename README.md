@@ -23,6 +23,13 @@ This is the template repository for the first major project in the Design 341 cl
 
 10. Edit, save, commit, and push your files. Lather, rinse, repeat!
 
+Credit for body copy
+
+13 whales you can see in the Pacific Northwest, and how to identify them—Oregonlive.com. (n.d.). Retrieved October 22, 2019, from https://www.oregonlive.com/travel/2017/12/13_whales_you_can_see_in_the_p.html
+Blue Whale | National Geographic. (n.d.). Retrieved October 22, 2019, from https://www.nationalgeographic.com/animals/mammals/b/blue-whale/
+Gray Whale | National Geographic. (2011, March 10). Retrieved October 22, 2019, from Animals website: https://www.nationalgeographic.com/animals/mammals/g/gray-whale/
+Humpback Whale | National Geographic. (n.d.). Retrieved October 22, 2019, from https://www.nationalgeographic.com/animals/mammals/h/humpback-whale/
+Orcas (Killer Whales): Facts and Information. (n.d.). Retrieved October 22, 2019, from https://www.nationalgeographic.com/animals/mammals/o/orca/
 
 
  
