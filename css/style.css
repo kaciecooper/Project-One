@@ -1,21 +1,26 @@
-body.home{
+
+
+main.home{
   background-color:#fff;}
 
-body.blue{
+main.blue{
 	background-color:#a6d1ca;
 }
 
-body.humpback{
+main.humpback{
 	background-color:#225caa;
 }  
 
-body.gray{
+main.gray{
 	background-color:#e5d8b5;
 }
 
-body.orca{
+main.orca{
 	background-color:#e8858c;
 }
+
+
+
 
 a{
 	text-decoration: none;}
@@ -56,6 +61,7 @@ a:visited{
 	text-decoration: none;
 	color:#000;
 }
+
 
 ul.home_ul a {
 color:#e83832;
@@ -102,121 +108,120 @@ nav li{ display: inline-block;
   	padding:10px;
   }
 
+
+
 h1.home_header {
 	width:300px;
 	height:100px;
 	padding-top:20px;
-	padding-left:30px;
 	font-family: 'Barlow', sans-serif;
 	color:#e83832;
 	font-size:70px;
 	font-weight:900;
-
+	text-align:left;
+	padding:20px;
 }
 
 
 h1.blue_header {
-	width:500px;
-	padding-top:20px;
-	margin-left:850px;
 	font-family: 'Barlow', sans-serif;
 	color:#0089cf;
-	font-size:100px;
+	font-size:50px;
 	font-weight:900;
-	
+	text-align: right;
+	padding:20px;	
 }
 
 
 h1.humpback_header {
-	width:500px;
-	padding-top:20px;
-	margin-left:20px;
 	font-family: 'Barlow', sans-serif;
 	color:#96c6e2;
-	font-size:100px;
+	font-size:50px;
 	font-weight:900;
-
+	text-align:left;
+	padding:20px;
 }
 
 
 h1.gray_header {
-	width:500px;
-	padding-top:20px;
-	margin-left:1000px;
 	font-family: 'Barlow', sans-serif;
 	color:#3e3694;
-	font-size:100px;
+	font-size:50px;
 	font-weight:900;
-	
+	text-align: right;
+	padding:20px;
 }
 
 
 h1.orca_header {
-	width:500px;
-	padding-top:20px;
-	margin-left:20px;
 	font-family: 'Barlow', sans-serif;
 	color:#225caa;
-	font-size:100px;
-	font-weight:900;	
+	font-size:50px;
+	font-weight:900;
+    text-align:left;
+    padding:20px;
 }
 
 
 section.home_section{
 	  display: grid;
-      grid-template-columns: 20% 80%;
-      position:absolute;
+      grid-template-columns: 1fr 1fr;
+
 }
 
 
 section.orca_section{
-	  display: grid;
-      grid-template-columns: 20% 80%;
-      position:absolute;
+	    display: grid;
+      grid-template-columns: 1fr 1fr;
+
 }
 
 
 section.gray_section{
-	  display: grid;
-      grid-template-columns: 75% 15%;
-      position:absolute;
+  	  display: grid;
+      grid-template-columns: 1fr 1fr;
+
 }
 
 
 section.humpback_section{
 	  display: grid;
-      grid-template-columns: 20% 80%;
-      position:absolute;
+      grid-template-columns: 1fr 1fr;
 }
 
 
 section.blue_section{
 	  display: grid;
-      grid-template-columns: 75% 15%;
-      position:absolute;
+      grid-template-columns: 1fr 1fr;
 }
 
+
+
 article.home_article{ 
-	display:block;
+	/*display:block;
 	padding:40px;
 	margin-top: 170px;
-	margin-right: 90px;
+	margin-right: 90px;*/
+	display:block;
 	width:350px;
 	height:300px;
 	font-family: 'Montserrat', sans-serif;
 	color:#000;
 	font-size:18px;
 	font-weight:200;
-	line-height:2em;	
-}
+	line-height:2em;
+	position: absolute;
+    left: 30px;
+    top: 350px;
+	}
 
 
 
 article.blue_article{ 
-	display:block;
+	/*display:block;
 	padding:50px;
 	margin-top: 20px;
-	margin-right: -200px;
+	margin-right: -200px;*/
 	width:250px;
 	height:250px;
 	font-family: 'Montserrat', sans-serif;
@@ -224,16 +229,21 @@ article.blue_article{
 	font-size:14px;
 	background-color:#0089cf;
 	line-height:1.5em;
+	position: absolute;
+    left: 30px;
+    top: 350px;
+    display:block;
+
 }
 
 
 
 
 article.humpback_article{ 
-	display:block;
+	/*display:block;
 	padding:30px;
 	margin-top: 60px;
-	margin-right: 90px;
+	margin-right: 90px;*/
 	width:300px;
 	height:250px;
 	font-family: 'Montserrat', sans-serif;
@@ -241,14 +251,15 @@ article.humpback_article{
 	font-size:14px;
 	background-color:#96c6e2;
 	line-height:1.5em;
+
 }
 
 
 
 article.gray_article{ 
-	padding:50px;
+	/*padding:50px;
 	margin-top: 20px;
-	margin-right: -200px;
+	margin-right: -200px;*/
 	width:250px;
 	height:250px;
 	font-family: 'Montserrat', sans-serif;
@@ -256,12 +267,13 @@ article.gray_article{
 	font-size:14px;
 	background-color:#3e3694;
 	line-height:1.5em;
+
 }
 
 
 article.orca_article{ 
-	padding:30px;
-	margin-top: 20px;
+	/*padding:30px;
+	margin-top: 20px;*/
 	width:300px;
 	height:270px;
 	font-family: 'Montserrat', sans-serif;
@@ -269,7 +281,10 @@ article.orca_article{
 	font-size:14px;
 	background-color:#225caa;
 	line-height:1.5em;
+
 }
+
+/*
 
 
 img.homepage_img_1{
@@ -318,7 +333,7 @@ footer{
   font-size:12px;
 }
 
-
+*/
 
 
 
