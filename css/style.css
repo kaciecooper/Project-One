@@ -62,6 +62,10 @@ a:visited{
 	color:#000;
 }
 
+ul{
+	z-index:1000;
+	position:static;
+}
 
 ul.home_ul a {
 color:#e83832;
@@ -119,49 +123,50 @@ h1.home_header {
 	font-size:70px;
 	font-weight:900;
 	text-align:left;
-	padding:20px;
 }
 
 
 h1.blue_header {
+	width:300px;
 	font-family: 'Barlow', sans-serif;
 	color:#0089cf;
-	font-size:50px;
+	font-size:80px;
+	font-weight:900;
+	text-align: right;
+	padding:20px;	
+}
+
+h1.humpback_header {
+	width:300px;
+	font-family: 'Barlow', sans-serif;
+	color:#96c6e2;
+	font-size:80px;
+	font-weight:900;
+	text-align:right;
+	padding:20px;
+}
+
+
+h1.gray_header {
+	width:300px;
+	font-family: 'Barlow', sans-serif;
+	color:#3e3694;
+	font-size:80px;
 	font-weight:900;
 	text-align: right;
 	padding:20px;	
 }
 
 
-h1.humpback_header {
-	font-family: 'Barlow', sans-serif;
-	color:#96c6e2;
-	font-size:50px;
-	font-weight:900;
-	text-align:left;
-	padding:20px;
-}
-
-
-h1.gray_header {
-	font-family: 'Barlow', sans-serif;
-	color:#3e3694;
-	font-size:50px;
-	font-weight:900;
-	text-align: right;
-	padding:20px;
-}
-
-
 h1.orca_header {
+	width:300px;
 	font-family: 'Barlow', sans-serif;
 	color:#225caa;
-	font-size:50px;
+	font-size:80px;
 	font-weight:900;
     text-align:left;
     padding:20px;
 }
-
 
 section.home_section{
 	  display: grid;
@@ -172,27 +177,27 @@ section.home_section{
 
 section.orca_section{
 	    display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 20% 80%;
 
 }
 
 
 section.gray_section{
   	  display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 80% 20%;
 
 }
 
 
 section.humpback_section{
 	  display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 80% 20%;
 }
 
 
 section.blue_section{
 	  display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 80% 20%;
 }
 
 
@@ -218,71 +223,60 @@ article.home_article{
 
 
 article.blue_article{ 
-	/*display:block;
-	padding:50px;
-	margin-top: 20px;
-	margin-right: -200px;*/
-	width:250px;
-	height:250px;
+	width:350px;
 	font-family: 'Montserrat', sans-serif;
 	color:#000;
-	font-size:14px;
-	background-color:#0089cf;
+	font-size:16px;
 	line-height:1.5em;
 	position: absolute;
-    left: 30px;
-    top: 350px;
+    left: 990px;
+    top: 250px;
     display:block;
-
 }
 
 
 
 
 article.humpback_article{ 
-	/*display:block;
-	padding:30px;
-	margin-top: 60px;
-	margin-right: 90px;*/
-	width:300px;
-	height:250px;
+	width:350px;
 	font-family: 'Montserrat', sans-serif;
-	color:#000;
-	font-size:14px;
-	background-color:#96c6e2;
+	color:#fff;
+	font-size:16px;
 	line-height:1.5em;
-
+	position: absolute;
+    left: 990px;
+	top: 250px;
+    display:block;
 }
 
 
 
 article.gray_article{ 
-	/*padding:50px;
-	margin-top: 20px;
-	margin-right: -200px;*/
-	width:250px;
-	height:250px;
+	width:350px;
 	font-family: 'Montserrat', sans-serif;
-	color:#fff;
-	font-size:14px;
-	background-color:#3e3694;
+	color:#000;
+	font-size:16px;
 	line-height:1.5em;
+	position: absolute;
+    left: 990px;
+	top: 250px;
+    display:block;
 
 }
 
 
 article.orca_article{ 
-	/*padding:30px;
-	margin-top: 20px;*/
-	width:300px;
-	height:270px;
+	width:350px;
 	font-family: 'Montserrat', sans-serif;
 	color:#fff;
-	font-size:14px;
-	background-color:#225caa;
+	font-size:16px;
 	line-height:1.5em;
-
+	position: absolute;
+    left: 30px;
+    top: 250px;
+    display:block;
 }
+
 
 /*
 
@@ -290,39 +284,40 @@ article.orca_article{
 img.homepage_img_1{
 	margin-top:-180px;
 	z-index:-100;
-}
+}*/
 
 img.orca_img_1{
-  width:900px; 
-  height:900px;
+  width:800px; 
   margin-top:-250px;
-  margin-left:100px;
-  z-index: -100;
-
+  margin-left:500px;
+  z-index:0;
 }
+
+
 
 img.gray_img_1{
   margin-top:-250px;
   margin-right:500px;
-  z-index: -100;
-  width:90%;
+  z-index:0;
+  width:80%;
 }
-
 
 img.humpback_img_1{
   margin-top:-250px;
+  margin-right:200px;
   width: 80%;
-  z-index: -100;
+  z-index:0;
 }
+
 
 img.blue_img_1{
   margin-top:-250px;
   margin-right:200px;
   width: 80%;
-  z-index: -100;
+  z-index:0;
 }
 
-
+/*
 footer{
   position: fixed;
   left: 0;
