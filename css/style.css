@@ -1,5 +1,23 @@
 
 
+
+	body.blue{
+		 background-image: url("blue_whale_background.png");
+	}
+/*
+	body.humpback{
+		background-color:#225caa;
+	}  
+
+	body.gray{
+		background-color:#e5d8b5;
+	}
+
+	body.orca{
+		background-color:#e8858c;
+	}
+
+*/
 main.home{
 	background-color:#fff;}
 
