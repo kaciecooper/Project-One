@@ -1,44 +1,33 @@
 
 
 
-	body.blue{
-		 background-image: url("blue_whale_background.png");
+body.blue{
+		 background-image: url(../images/blue_background-11.png);
+		 background-repeat: no-repeat;
+         background-size: cover;
 	}
-/*
-	body.humpback{
-		background-color:#225caa;
-	}  
-
-	body.gray{
-		background-color:#e5d8b5;
 	}
 
-	body.orca{
-		background-color:#e8858c;
+body.gray{
+		 background-image: url(../images/gray_background-11.png);
+		 background-repeat: no-repeat;
+         background-size: cover;
+	}
 	}
 
-*/
-main.home{
-	background-color:#fff;}
-
-	main.blue{
-		background-color:#a6d1ca;
-	}
-
-	main.humpback{
-		background-color:#225caa;
-	}  
-
-	main.gray{
-		background-color:#e5d8b5;
-	}
-
-	main.orca{
-		background-color:#e8858c;
+body.humpback{
+		 background-image: url(../images/humpback_background-11.png);
+		 background-repeat: no-repeat;
+         background-size: cover;
 	}
 
 
 
+body.orca{
+		 background-image: url(../images/orca_background-11.png);
+		 background-repeat: no-repeat;
+         background-size: cover;
+	}
 
 	a{
 		text-decoration: none;}
@@ -107,7 +96,7 @@ main.home{
 
 
 		nav{ padding: 20px;
-			font-family: 'Barlow', sans-serif;
+			font-family: 'Staatliches', cursive;
 			font-size: 16px;
 		}
 
@@ -136,7 +125,7 @@ h1.home_header {
 	height:100px;
 	padding-top:20px;
 	padding-left:20px;
-	font-family: 'Barlow', sans-serif;
+	font-family: 'Staatliches', cursive;
 	color:#e83832;
 	font-size:70px;
 	font-weight:900;
@@ -146,7 +135,7 @@ h1.home_header {
 
 h1.blue_header {
 	width:100%;
-	font-family: 'Barlow', sans-serif;
+	font-family: 'Staatliches', cursive;
 	color:#0089cf;
 	font-size:100px;
 	font-weight:900;
@@ -157,7 +146,7 @@ h1.blue_header {
 
 h1.humpback_header{
 	width:100%;
-	font-family: 'Barlow', sans-serif;
+	font-family: 'Staatliches', cursive;
 	color:#96c6e2;
 	font-size:100px;
 	font-weight:900;
@@ -167,7 +156,7 @@ h1.humpback_header{
 
 h1.gray_header {
 	width:100%;
-	font-family: 'Barlow', sans-serif;
+	font-family: 'Staatliches', cursive;
 	color:#3e3694;
 	font-size:100px;
 	font-weight:900;
@@ -178,7 +167,7 @@ h1.gray_header {
 
 h1.orca_header {
 	width:100%;
-	font-family: 'Barlow', sans-serif;
+	font-family: 'Staatliches', cursive;
 	color:#225caa;
 	font-size:100px;
 	font-weight:900;
@@ -224,7 +213,7 @@ article.home_article{
 	display:block;
 	width:350px;
 	height:300px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'ABeeZee', sans-serif;
 	color:#000;
 	font-size:18px;
 	font-weight:200;
@@ -238,10 +227,11 @@ article.home_article{
 
 article.blue_article{ 
 	width:350px;
-	font-family: 'Montserrat', sans-serif;
-	color:#000;
-	font-size:16px;
-	line-height:1.5em;
+	font-family: 'ABeeZee', sans-serif;
+	color:#0087d6;
+	font-weight:500;
+	font-size:18px;
+	line-height:2em;
 	position: absolute;
 	left: 990px;
 	top: 350px;
@@ -252,10 +242,10 @@ article.blue_article{
 
 article.humpback_article{ 
 	width:350px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'ABeeZee', sans-serif;
 	color:#fff;
-	font-size:16px;
-	line-height:1.5em;
+	font-size:18px;
+	line-height:2em;
 	position: absolute;
 	left: 90px;
 	top: 350px;
@@ -266,10 +256,10 @@ article.humpback_article{
 
 article.gray_article{ 
 	width:350px;
-	font-family: 'Montserrat', sans-serif;
-	color:#000;
-	font-size:16px;
-	line-height:1.5em;
+	font-family: 'ABeeZee', sans-serif;
+	color:#3e3694;
+	font-size:18px;
+	line-height:2em;
 	position: absolute;
 	left: 990px;
 	top: 350px;
@@ -280,10 +270,10 @@ article.gray_article{
 
 article.orca_article{ 
 	width:350px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'ABeeZee', sans-serif;
 	color:#fff;
-	font-size:16px;
-	line-height:1.5em;
+	font-size:18px;
+	line-height:2em;
 	position: absolute;
 	left: 90px;
 	top: 350px;
