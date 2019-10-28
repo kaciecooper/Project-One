@@ -180,6 +180,7 @@ h1.orca_header {
 section.home_section{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	width:100%;
 
 }
 
@@ -187,6 +188,7 @@ section.home_section{
 section.orca_section{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	width:100%;
 
 }
 
