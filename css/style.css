@@ -6,13 +6,13 @@ body.blue{
 		 background-repeat: no-repeat;
          background-size: cover;
 	}
-	}
+	
 
 body.gray{
 		 background-image: url(../images/gray_background-11.png);
 		 background-repeat: no-repeat;
          background-size: cover;
-	}
+	
 	}
 
 body.humpback{
@@ -147,7 +147,7 @@ h1.blue_header {
 h1.humpback_header{
 	width:100%;
 	font-family: 'Staatliches', cursive;
-	color:#96c6e2;
+	color:#087495;
 	font-size:100px;
 	font-weight:900;
 	text-align:center;
@@ -174,6 +174,8 @@ h1.orca_header {
 	text-align:center;
 	padding:20px;
 }
+
+
 
 section.home_section{
 	display: grid;
@@ -228,7 +230,7 @@ article.home_article{
 article.blue_article{ 
 	width:350px;
 	font-family: 'ABeeZee', sans-serif;
-	color:#0087d6;
+	color:#0055aa;
 	font-weight:500;
 	font-size:18px;
 	line-height:2em;
@@ -284,14 +286,14 @@ article.orca_article{
 
 img.homepage_img_1{
 	margin-top:-180px;
-	margin-left:300px;
+	margin-left:350px;
 	z-index:-100;
 }
 
 img.orca_img_1{
     display:block;
 	position: relative;
-    left: 750px;
+    left: 600px;
 	top: -60px;
 }
 
@@ -307,7 +309,7 @@ img.gray_img_1{
 img.humpback_img_1{
 	display:block;
 	position: relative;
-    left: 750px;
+    left: 650px;
 	top: -60px;
 }
 
@@ -316,15 +318,13 @@ img.blue_img_1{
 	margin-top:-60px;
 }
 
-*/
+
 footer {
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	color: #000;
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-	font-size:12px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #333;
+  text-align: center;
 }
 
 
