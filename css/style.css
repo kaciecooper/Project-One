@@ -5,13 +5,6 @@
 
 /*MAIN STYLES--------------------------------------*/
 
-#orca-bg {
-    width: 100%;
-    height: 300px;
-    background-image: url(../images/orca_background.svg);
-    background-repeat: repeat-x;
-    background-size: contain;
-}
 
 body.blue{
 	background-image: url(../images/blue_background-11.png);
