@@ -29,6 +29,7 @@ body.humpback{
 
 
 
+
 body.orca{
 	background-image: url(../images/orca_background-11.png);
 	background-repeat: no-repeat;
@@ -295,6 +296,7 @@ a{
 
 /*IMAGES--------------------------------------*/
 
+
 	img.homepage_img_1{
 	  width: 100%;
 	  display: flex;
@@ -348,6 +350,10 @@ a{
 	  padding-top:20px;
 	  padding:20px;
 	}
+
+
+/*IMAGE ANIMATIONS--------------------------------------*/
+
 
 
 /*FOOTER--------------------------------------*/
