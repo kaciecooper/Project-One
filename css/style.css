@@ -294,10 +294,10 @@ a{
 
 
 
-/*IMAGES--------------------------------------*/
+/*IMAGES-------------<img src="images/homepage_whale.png" class="homepage_img alt="whale group illustration">------------------------*/
 
-
-	img.homepage_img_1{
+/*
+	img.homepage_img{
 	  width: 100%;
 	  display: flex;
 	  margin-top:-100px;
@@ -306,7 +306,7 @@ a{
 	  z-index:-99;
 	  padding-top:40px;
 	}
-
+*/
 	}
 
 	img.orca_img_1{
@@ -354,7 +354,18 @@ a{
 
 /*IMAGE ANIMATIONS--------------------------------------*/
 
+.homepage_img {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+	}
 
+.homepage_img:hover {opacity: 1}
 
 /*FOOTER--------------------------------------*/
 
