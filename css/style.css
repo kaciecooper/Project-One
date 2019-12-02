@@ -28,7 +28,7 @@ body.humpback{
 }
 
 
-
+/*
 
 body.orca{
 	background-image: url(../images/orca_background-11.png);
@@ -355,6 +355,22 @@ a{
 
 
 /*IMAGE ANIMATIONS--------------------------------------*/
+
+
+
+
+.wave {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
 
 .homepage_img {
   border: none;
