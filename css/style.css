@@ -303,7 +303,6 @@ a{
 	  margin-top:-100px;
 	  margin-left: auto;
 	  margin-right: auto;
-	  opacity: 0.5;
 	  padding-top:40px;
 	}
 
@@ -356,7 +355,8 @@ a{
 
 /*IMAGE ANIMATIONS--------------------------------------*/
 
-/*.homepage_img {
+
+.homepage_img {
   border: none;
   color: white;
   padding: 16px 32px;
@@ -367,11 +367,13 @@ a{
   transition: 0.3s;
 	}
 
-.homepage_img:hover {opacity: 1}*/
+.homepage_img:hover {opacity: 1}
 
-.homepage_img:hover img,
+/*
+.homepage_img:hover,{
  animation: bounce 1s;
 }
+
 
 
 @keyframes bounce {
@@ -387,7 +389,7 @@ a{
    -webkit-transform: translateY(-10px);
    transform: translateY(-10px);
  }
-
+*/
 
 /*FOOTER--------------------------------------*/
 
