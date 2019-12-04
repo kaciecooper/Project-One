@@ -122,6 +122,19 @@ a{
 	
 	}
 /*HEADERS--------------------------------------*/
+	.blue-h1{
+		padding-top:30px;
+	}	
+
+	.orca-h1{
+		padding-top:60px;
+	}	
+		
+	.gray-h1{
+		padding-top:80px;
+	}	
+			
+	
 
 	
 	h1.home_header{
