@@ -357,12 +357,12 @@ a{
 /*IMAGE ANIMATIONS--------------------------------------*/
 
 
-
+clouds_anim 75s linear infinite
 
 .wave {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: dash 5s linear backwards;
+  animation:5s linear infinite;
 }
 
 @keyframes dash {
