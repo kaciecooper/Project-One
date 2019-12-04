@@ -149,6 +149,7 @@ a{
 		padding:30px;	
 		display:flex;
 		margin-bottom:20px;
+
 		}
 
 
@@ -203,6 +204,28 @@ a{
 		margin:auto;
 		margin-bottom:10px;
 		}
+
+
+	.orca-h2{
+		color:#225caa;
+	}	
+
+	.blue-h2{
+		color:#0089cf;
+	}	
+
+
+	.gray-h2{
+		color:#3e3694;
+	}	
+
+	.humpback-h2{
+		color:#96c6e2
+	}	
+
+	.homepage-h2{
+		color:#e83832;
+	}	
 
 /*GRID--------------------------------------*/
 
@@ -355,7 +378,7 @@ a{
 
 /*IMAGE ANIMATIONS--------------------------------------*/
 
-
+/*
 .homepage_img {
   border: none;
   color: white;
@@ -390,6 +413,15 @@ a{
    transform: translateY(-10px);
  }
 */
+
+
+
+.homepage_img:hover
+{
+        -webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-30deg);
+}
 
 .gray_img_1:hover
 {
