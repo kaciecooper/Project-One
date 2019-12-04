@@ -28,7 +28,7 @@ body.humpback{
 }
 
 
-/*
+
 
 body.orca{
 	background-image: url(../images/orca_background-11.png);
@@ -356,23 +356,7 @@ a{
 
 /*IMAGE ANIMATIONS--------------------------------------*/
 
-
-clouds_anim 75s linear infinite
-
-.wave {
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  animation:5s linear infinite;
-}
-
-@keyframes dash {
-  to {
-    stroke-dashoffset: 12;
-  }
-}
-
-
-.homepage_img {
+/*.homepage_img {
   border: none;
   color: white;
   padding: 16px 32px;
@@ -383,7 +367,27 @@ clouds_anim 75s linear infinite
   transition: 0.3s;
 	}
 
-.homepage_img:hover {opacity: 1}
+.homepage_img:hover {opacity: 1}*/
+
+.homepage_img:hover img,
+ animation: bounce 1s;
+}
+
+
+@keyframes bounce {
+ 0%, 20%, 60%, 100% {
+   -webkit-transform: translateY(0);
+   transform: translateY(0);
+ }
+ 40% {
+   -webkit-transform: translateY(-20px);
+   transform: translateY(-20px);
+ }
+ 80% {
+   -webkit-transform: translateY(-10px);
+   transform: translateY(-10px);
+ }
+
 
 /*FOOTER--------------------------------------*/
 
