@@ -113,14 +113,7 @@ a{
 		padding:20px; 		
 	}
 
-/*
-	.homepagelink{
-		text-align:center;
-		display:flex;
-		margin-left: 30px;
-		padding:30px;
-	
-	}
+
 /*HEADERS--------------------------------------*/
 	.blue-h1{
 		padding-top:30px;
@@ -393,43 +386,6 @@ a{
 
 
 /*IMAGE ANIMATIONS--------------------------------------*/
-
-/*
-.homepage_img {
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  font-size: 16px;
-  margin: 4px 2px;
-  opacity: 0.6;
-  transition: 0.3s;
-	}
-
-.homepage_img:hover {opacity: 1}
-
-/*
-.homepage_img:hover,{
- animation: bounce 1s;
-}
-
-
-
-@keyframes bounce {
- 0%, 20%, 60%, 100% {
-   -webkit-transform: translateY(0);
-   transform: translateY(0);
- }
- 40% {
-   -webkit-transform: translateY(-20px);
-   transform: translateY(-20px);
- }
- 80% {
-   -webkit-transform: translateY(-10px);
-   transform: translateY(-10px);
- }
-*/
-
 
 
 .homepage_img:hover
